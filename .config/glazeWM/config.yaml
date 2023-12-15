@@ -38,16 +38,16 @@ focus_borders:
     enabled: false
     color: "#161616"
 bar:
-  offset_x: 12
-  offset_y: 12
+  offset_x: 0
+  offset_y: 0
   font_family: "JetBrainsMono Nerd Font"
   height: 30 
-  border_radius: 6
+  border_radius: 0
   position: "top"
-  background: "#1c2128"
-  foreground: "#f0f6fc"
+  background: "#1c212860"
+  foreground: "#D8DEE9"
   font_size: "13px"
-  border_color: "#343A41"
+  border_color: "#2E3440"
   border_width: 1
   vertical: "v"
   horizontal: "b" 
@@ -61,31 +61,31 @@ bar:
       margin: "0px 10px 0px 0px"
       
     - type: "cpu"
-      label: "<attr fs='20' fg='#7E7EFF'> </attr>{percent_usage}%"
+      label: "<attr fs='20' fg='#81A1C1'> </attr>{percent_usage}%"
       margin: "0px 10px 0px 0px"
       refresh_interval_ms: 1000
     - type: "gpu"
-      label: "<attr fs='20' fg='#7E7EFF'>󱝊 </attr>{percent_usage}%"
+      label: "<attr fs='20' fg='#81A1C1'>󱝊 </attr>{percent_usage}%"
       margin: "0px 10px 0px 0px"
       refresh_interval_ms: 1000
     - type: "memory"
-      label: "<attr fs='20' fg='#7E7EFF'> </attr>{percent_usage}%"
+      label: "<attr fs='20' fg='#81A1C1'> </attr>{percent_usage}%"
       margin: "0px 10px 0px 0px"
       refresh_interval_ms: 1000
     - type: "weather"
       latitude: 35.6895
       longitude: 139.6917
-      label: "<attr fs='20' fg='#7E7EFF'> </attr>{temperature_celsius}°c"
-      label_sun: "<attr fs='20' fg='#7E7EFF'>󰖙 </attr>{temperature_celsius}°c"
-      label_moon: "<attr fs='20' fg='#7E7EFF'>󰖔 </attr>{temperature_celsius}°c"
-      label_cloud_moon: "<attr fs='20' fg='#7E7EFF'>󰼱 </attr>{temperature_celsius}°c"
-      label_cloud_sun: "<attr fs='20' fg='#7E7EFF'>󰖕 </attr>{temperature_celsius}°c"
-      label_cloud_moon_rain: "<attr fs='20' fg='#7E7EFF'>󰖖 </attr>{temperature_celsius}°c"
-      label_cloud_sun_rain: "<attr fs='20' fg='#7E7EFF'>󰼳 </attr>{temperature_celsius}°c"
-      label_cloud_rain: "<attr fs='20' fg='#7E7EFF'>󰖖 </attr>{temperature_celsius}°c"
-      label_snow_flake: "<attr fs='20' fg='#7E7EFF'>󰖘 </attr>{temperature_celsius}°c"
-      label_thunderstorm: "<attr fs='20' fg='#7E7EFF'>󰖓 </attr>{temperature_celsius}°c"
-      label_cloud: "<attr fs='20' fg='#7E7EFF'> </attr>{temperature_celsius}°c"
+      label: "<attr fs='20' fg='#81A1C1'> </attr>{temperature_celsius}°c"
+      label_sun: "<attr fs='20' fg='#81A1C1'>󰖙 </attr>{temperature_celsius}°c"
+      label_moon: "<attr fs='20' fg='#81A1C1'>󰖔 </attr>{temperature_celsius}°c"
+      label_cloud_moon: "<attr fs='20' fg='#81A1C1'>󰼱 </attr>{temperature_celsius}°c"
+      label_cloud_sun: "<attr fs='20' fg='#81A1C1'>󰖕 </attr>{temperature_celsius}°c"
+      label_cloud_moon_rain: "<attr fs='20' fg='#81A1C1'>󰖖 </attr>{temperature_celsius}°c"
+      label_cloud_sun_rain: "<attr fs='20' fg='#81A1C1'>󰼳 </attr>{temperature_celsius}°c"
+      label_cloud_rain: "<attr fs='20' fg='#81A1C1'>󰖖 </attr>{temperature_celsius}°c"
+      label_snow_flake: "<attr fs='20' fg='#81A1C1'>󰖘 </attr>{temperature_celsius}°c"
+      label_thunderstorm: "<attr fs='20' fg='#81A1C1'>󰖓 </attr>{temperature_celsius}°c"
+      label_cloud: "<attr fs='20' fg='#81A1C1'> </attr>{temperature_celsius}°c"
       margin: "0px 10px 0px 0px"
   components_center:
     - type: "window title" 
@@ -93,9 +93,9 @@ bar:
   components_right:
     - type: "system tray"
       padding: "4px 6px"
-      foreground: "#7E7EFF"
+      foreground: "#81A1C1"
     - type: "network"
-      foreground: "#7E7EFF"
+      foreground: "#81A1C1"
       padding: "0 8px"
       font_family: "JetBrainsMono Nerd Font Mono"
       label_no_internet: " "
@@ -106,13 +106,13 @@ bar:
       label_wifi_strength_75: "󰤥 "
       label_wifi_strength_100: "󰤨 "
     - type: "volume"
-      label: "<attr fs='25' fg='#7E7EFF'></attr>{volume_level}%"
+      label: "<attr fs='25' fg='#81A1C1'></attr>{volume_level}%"
       padding: "0 8px"
       margin: "0 8px"
-      label_low: "<attr fs='25' fg='#7E7EFF'> </attr>{volume_level}%"
-      label_medium: "<attr fs='25' fg='#7E7EFF'> </attr>{volume_level}%"
-      label_high: "<attr fs='25' fg='#7E7EFF'> </attr>{volume_level}%"
-      label_mute: "<attr fs='25' fg='#7E7EFF'> </attr>{volume_level}%"
+      label_low: "<attr fs='25' fg='#81A1C1'> </attr>{volume_level}%"
+      label_medium: "<attr fs='25' fg='#81A1C1'> </attr>{volume_level}%"
+      label_high: "<attr fs='25' fg='#81A1C1'> </attr>{volume_level}%"
+      label_mute: "<attr fs='25' fg='#81A1C1'> </attr>{volume_level}%"
     - type: "battery"
       foreground: "#7ce38b"
       label_charging: "󰢝 {battery_level}%"
@@ -122,12 +122,12 @@ bar:
     - type: "tiling direction"
       label_horizontal: "⮂"
       label_vertical: "⮁"
-      foreground: "#7E7EFF"
+      foreground: "#81A1C1"
       background: "#ffffff33"
       margin: "0 4px"
       padding: "0 8px"
     - type: "clock"
-      foreground: "#7E7EFF"
+      foreground: "#D8DEE9"
       time_formatting: "HH:mm:ss ddd MMM d  "
       margin: "0 0 0 10px" 
 
