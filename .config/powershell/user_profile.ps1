@@ -1,3 +1,4 @@
+Write-Host "Current Git User: $(git config --global user.name)"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # Prompt
 Import-Module posh-git
