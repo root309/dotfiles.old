@@ -41,4 +41,7 @@ sudo apt install lsd
 # install nasm
 sudo apt-get install nasm build-essential
 
+# install powerline fonts
+sudo apt-get install fonts-powerline
+
 echo "All installations are complete."
