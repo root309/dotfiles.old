@@ -83,8 +83,11 @@ alias d="docker"
 alias ssdstart="sudo service docker start"
 alias dcmrun="docker compose run --rm"
 
+# Vim alias
+alias vi="vim"
+
 # Neovim alias
-alias vim="nvim"
+alias nvi="nvim"
 
 # Additional environment settings
 source "$HOME/.cargo/env"
